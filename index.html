@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Credit Up</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- FONTAWSOME ICON -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/test.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav>
+        <div class="logoContainer">
+          <img src="/assets/logo.png" alt="" class="img-fluid" width="250" />
+        </div>
+        <div class="navItem">
+          <ul>
+            <li><a href="#About Us">About Us</a></li>
+            <li><a href="#Service">Services</a></li>
+            <li><a href="#faq">FAQs</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="menuIcon">
+          <button
+            class="btn btn-danger"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Responsive Navbar -->
+    <!-- <div class="responsiveNav">
+      <div class="logo">
+        <img src="/assets/logo.png" alt="" class="img-fluid" width="250" />
+      </div>
+      <div class="listNav">
+        <ul class="listItem">
+          <li class="items"><a href="">About Us</a></li>
+          <li class="items"><a href="">Services</a></li>
+          <li class="items"><a href="">FAQs</a></li>
+          <li class="items"><a href="">Contact</a></li>
+        </ul>
+      </div>
+    </div> -->
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">
+          Offcanvas right
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="responsiveNav">
+          <div class="logo">
+            <img src="/assets/logo.png" alt="" class="img-fluid" width="250" />
+          </div>
+          <div class="listNav">
+            <ul class="listItem">
+              <li class="items"><a href="#About Us">About Us</a></li>
+              <li class="items"><a href="#Service">Services</a></li>
+              <li class="items"><a href="#faq">FAQs</a></li>
+              <li class="items"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- mainContainer -->
+    <div class="mainContainer">
+      <div class="toggle-up" id="scroll" style="display: none">
+        <div class="round">
+          <a href="#">
+            <i class="fa-solid fa-angles-up fa-bounce"></i>
+          </a>
+        </div>
+      </div>
+
+      <main>
+        <!-- heroSection Start -->
+
+        <div class="heroContainer m-5">
+          <div class="container-fluid">
+            <div class="row banner-section overflow-hidden">
+              <div
+                class="col-xl-6 col-lg-6 col-md-6 leftCont"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <div class="heroTitle">
+                  <h1>
+                    Unlock Financial Freedom with
+                    <span class="crediTxt"
+                      >Credit<span class="upTxt">Up</span>.</span
+                    >
+                  </h1>
+                  <p>
+                    Empowering individuals and businesses with expert debt
+                    solutions, legal support, and tailored financial strategies
+                    for a brighter financial future.
+                  </p>
+                </div>
+                <div class="getBtn">
+                  <button>Get Free Consultation Now</button>
+                </div>
+              </div>
+              <div
+                class="col-xl-6 col-lg-6 col-md-6"
+                data-aos="fade-left"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <img src="/assets/heroImg.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- heroSection End -->
+
+        <!-- Counting Section Start-->
+        <section>
+          <div class="container overflow-hidden">
+            <div
+              class="row gx-3 gy-5 mb-5"
+              data-aos="zoom-out-down"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="count">
+                  <div class="countNum">
+                    <strong class="d-block"
+                      >10cr<span class="plus">+</span></strong
+                    >
+                  </div>
+                  <div class="countTxt">
+                    <span class="d-block">worth of debt settled</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="count">
+                  <div class="countNum">
+                    <strong class="d-block"
+                      >2000<span class="plus">+</span></strong
+                    >
+                  </div>
+                  <div class="countTxt">
+                    <span class="d-block">clients helped</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="count">
+                  <div class="countNum">
+                    <strong class="d-block"
+                      >10yr<span class="plus">+</span></strong
+                    >
+                  </div>
+                  <div class="countTxt">
+                    <span class="d-block">of experience in debt solutions</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="count">
+                  <div class="countNum">
+                    <strong class="d-block"
+                      >91%<span class="plus">+</span></strong
+                    >
+                  </div>
+                  <div class="countTxt">
+                    <span class="d-block">of success rate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Counting Section End-->
+
+        <!-- AboutUs Section -->
+        <div
+          class="container aboutContainer mt-5 overflow-hidden"
+          id="About Us"
+        >
+          <div class="row">
+            <div
+              class="col-xl-6 col-lg-6 col-md-12"
+              data-aos="zoom-in-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <img src="/assets/About_us.png" alt="" class="img-fluid" />
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 text-center">
+              <div class="aboutSection">
+                <h2 class="aboutTitle">About Us</h2>
+                <span class="aboutTxt mt-3 mb-5">
+                  We are a team of seasoned banking professionals, chartered
+                  accountants, and insolvency experts, boasting a collective
+                  experience of 100 years. Our track record includes
+                  successfully resolving accounts exceeding 20,000 Crore. With
+                  specialized skills in OTS negotiation, legal matters, pending
+                  OTS cases, and revival strategies and debt funding. Our team
+                  has become proficient in navigating complex financial
+                  scenarios. We are proud pioneers in utilizing the Mediation
+                  Channel for debt resolution, creating mutually beneficial
+                  outcomes for both lenders and borrowers. We extend our
+                  services to individuals and business owners through our
+                  innovative Debt Hospital.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Services Section -->
+        <div class="container serviceSection overflow-hidden" id="Service">
+          <h2 class="text-center">Services We Offer</h2>
+          <div class="container">
+            <div class="row g-4">
+              <div
+                class="col-xl-6 col-lg-6 col-md-12"
+                data-aos="fade-left"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <div class="serviceFirst">
+                  <div class="serviceTxt">
+                    <span class="serviceT">Service</span>
+                  </div>
+                  <div class="serviceImg">
+                    <img
+                      src="/assets/serviceDebt.png"
+                      alt=""
+                      width="300"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="servicePar">
+                    <p>Debt Counselling and Management</p>
+                    <span
+                      >We aid you in intelligently strategizing planning your
+                      debt, whether it's minimizing costs, securing additional
+                      funds, or achieving a debt-free status. Our guidance
+                      covers every facet, offering support at every step of your
+                      financial planning.</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-xl-6 col-lg-6 col-md-12"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <div class="row gy-4">
+                  <div class="col-xl-12 col-lg-12">
+                    <div class="serviceFirst">
+                      <div class="serviceTxt">
+                        <span class="serviceT">Service</span>
+                      </div>
+                      <div class="servicePar mt-3">
+                        <p>EMI Funding</p>
+                        <span
+                          >Failing to make your EMI payment on time not only
+                          incurs significant penalties and interest charges but
+                          also adversely affects your credit score. Fortunately,
+                          we have a solution for you through EMI Funding.</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="col-xl-12 col-lg-12"
+                    data-aos="fade-right"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                  >
+                    <div class="serviceFirst">
+                      <div class="serviceTxt">
+                        <span class="serviceT">Service</span>
+                      </div>
+                      <div class="servicePar mt-3">
+                        <p>Fresh Beginning Loan</p>
+                        <span
+                          >We are the first to believe in your journey, backing
+                          you as you move from being a reliable borrower, facing
+                          challenges as a defaulter, and ultimately regaining
+                          your status as a dependable borrower.</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-xl-12 col-lg-12"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <div class="serviceFirst">
+                  <div class="serviceTxt">
+                    <span class="serviceT">Service</span>
+                  </div>
+                  <div class="serviceSect">
+                    <div class="row">
+                      <div
+                        class="col-xl-6 col-lg-6 col-md-12"
+                        data-aos="fade-right"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                      >
+                        <p class="mt-5">Settlement Funding</p>
+                        <span
+                          >If you have a strategy in place to contribute a
+                          portion of the (OTS) amount, ranging from 20% to 50%,
+                          from your own resources, we can step in to fund the
+                          remaining balance. This approach allows for a
+                          collaborative financing structure, where your initial
+                          investment serves as a foundation, and our funding
+                          covers the remaining percentage of the OTS amount.
+                          Moreover, the flexibility in the percentage you choose
+                          to self fund provides room for customization based on
+                          your financial capabilities and preferences.</span
+                        >
+                      </div>
+                      <div
+                        class="col-xl-6 col-lg-6 col-md-12"
+                        data-aos="fade-left"
+                        data-aos-delay="50"
+                        data-aos-duration="1000"
+                      >
+                        <img
+                          src="/assets/serviceFund.png"
+                          alt=""
+                          class="img-fluid"
+                          width="400"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="fundImg"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-xl-4 col-lg-4 col-md-12"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <div class="serviceFirst">
+                  <div class="serviceTxt">
+                    <span class="serviceT">Service</span>
+                  </div>
+                  <div class="servicePar mt-3">
+                    <p>OTS One Time Settlement</p>
+                    <span
+                      >In OTS transactions, substantial discounts of 70% to 80%
+                      are not uncommon, often accompanied by favorable payment
+                      terms. The outcome relies on effective legal
+                      representation and the exceptional negotiation skills of
+                      our qualified professionals.</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-xl-8 col-lg-8 col-md-12"
+                data-aos="fade-left"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <div class="serviceFirst">
+                  <div class="serviceTxt">
+                    <span class="serviceT">Service</span>
+                  </div>
+                  <div class="servicePar mt-3">
+                    <p>Debt Consolidation / Restructuring</p>
+                    <span
+                      >If an excessive number of monthly obligations are causing
+                      stress on your budget, Debt Consolidation offers a
+                      solution to prevent payment delays. Through a mediation
+                      process, we negotiate to reduce interest rates, extend
+                      tenures, and implement balloon repayments, aligning them
+                      with your cash flow to avoid defaults. In extraordinary
+                      situations where default is inevitable, prioritizing
+                      damage minimization becomes crucial. Additionally,
+                      Repayment Holidays provide the necessary time to restore
+                      your cash flow to a stable state.</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-xl-12 col-lg-12 col-md-12"
+                data-aos="fade-up"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <div class="serviceFirst">
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12">
+                      <img
+                        src="/assets/serviceSupport.png"
+                        alt=""
+                        class="img-fluid"
+                        width="400"
+                      />
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12">
+                      <div class="serviceTxt">
+                        <span class="serviceT">Service</span>
+                      </div>
+                      <p class="mt-5">Legal Support</p>
+                      <span
+                        >Borrowers frequently make the error of signing loan
+                        documents without thorough review, and a majority of
+                        these agreements tend to favor the lender. In the event
+                        of a default, the borrower may encounter severe
+                        repercussions. Furthermore, the lender may enlist the
+                        services of a notorious collection agency and initiate
+                        multiple legal actions against the borrower experiencing
+                        financial distress. This is where our legal team becomes
+                        integral in managing and addressing such
+                        situations.</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial Section -->
+
+        <div class="container-fluid testimonialContainer mt-5 overflow-hidden">
+          <div class="container">
+            <div class="testmonialTitle"></div>
+            <div
+              class="row g-5 d-flex justify-content-center align-items-center"
+            >
+              <div
+                class="col-xl-4 col-lg-4"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <div class="testiomonialHead">
+                  <div class="test-heading">
+                    <p class="test-title">TESTIMONIALS</p>
+                  </div>
+                  <p class="test-subtitle">What our clients say about us.</p>
+                  <p class="test-smalltitle">
+                    we keep our customers at the top
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="col-xl-8 col-lg-8 mb-5"
+                data-aos="fade-left"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <div class="testimonialSlide">
+                  <section class="testimonial-area">
+                    <div class="container">
+                      <div class="testimonial-content owl-carousel">
+                        <!-- Single Testimonial -->
+                        <div class="single-testimonial">
+                          <div class="round-1 round"></div>
+                          <div class="round-2 round"></div>
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book
+                          </p>
+                          <div class="client-info">
+                            <div class="client-video">
+                              <a href="#"
+                                ><img
+                                  src="https://i.ibb.co/DWhSr6S/play-button2.png"
+                                  alt=""
+                              /></a>
+                            </div>
+                            <div class="client-details">
+                              <h6>Yeasin Arafat</h6>
+                              <span>Designer, LLCG Team</span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Single Testimonial -->
+                        <div class="single-testimonial">
+                          <div class="round-1 round"></div>
+                          <div class="round-2 round"></div>
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book
+                          </p>
+                          <div class="client-info">
+                            <div class="client-video">
+                              <a href="#"
+                                ><img
+                                  src="https://i.ibb.co/DWhSr6S/play-button2.png"
+                                  alt=""
+                              /></a>
+                            </div>
+                            <div class="client-details">
+                              <h6>Yeasin Arafat</h6>
+                              <span>Designer, LLCG Team</span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Single Testimonial -->
+                        <div class="single-testimonial">
+                          <div class="round-1 round"></div>
+                          <div class="round-2 round"></div>
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book
+                          </p>
+                          <div class="client-info">
+                            <div class="client-video">
+                              <a href="#"
+                                ><img
+                                  src="https://i.ibb.co/DWhSr6S/play-button2.png"
+                                  alt=""
+                              /></a>
+                            </div>
+                            <div class="client-details">
+                              <h6>Yeasin Arafat</h6>
+                              <span>Designer, LLCG Team</span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Single Testimonial -->
+                        <div class="single-testimonial">
+                          <div class="round-1 round"></div>
+                          <div class="round-2 round"></div>
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book
+                          </p>
+                          <div class="client-info">
+                            <div class="client-video">
+                              <a href="#"
+                                ><img
+                                  src="https://i.ibb.co/DWhSr6S/play-button2.png"
+                                  alt=""
+                              /></a>
+                            </div>
+                            <div class="client-details">
+                              <h6>Yeasin Arafat</h6>
+                              <span>Designer, LLCG Team</span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Single Testimonial -->
+                        <div class="single-testimonial">
+                          <div class="round-1 round"></div>
+                          <div class="round-2 round"></div>
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s,
+                            when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book
+                          </p>
+                          <div class="client-info">
+                            <div class="client-video">
+                              <a href="#"
+                                ><img
+                                  src="https://i.ibb.co/DWhSr6S/play-button2.png"
+                                  alt=""
+                              /></a>
+                            </div>
+                            <div class="client-details">
+                              <h6>Yeasin Arafat</h6>
+                              <span>Designer, LLCG Team</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Friquent Question -->
+        <div class="container overflow-hidden" id="faq">
+          <div
+            class="accodianContainer mt-5"
+            data-aos="fade-down"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div class="accodianHead">
+              <h2 class="text-center accodianTitle mb-5">
+                Frequently Asked Questions
+              </h2>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    <img
+                      src="/assets/accordianIcon.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                    <span class="accordianTxt"
+                      >What services does CreditUp offer?</span
+                    >
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the first item's accordion body.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    <img
+                      src="/assets/accordianIcon.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                    <span class="accordianTxt"
+                      >How can CreditUp help me with my debt related
+                      issues?</span
+                    >
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the second item's accordion body. Let's imagine this being
+                    filled with some actual content.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    <img
+                      src="/assets/accordianIcon.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                    <span class="accordianTxt"
+                      >What is EMI funding, and how does it work?</span
+                    >
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the third item's accordion body. Nothing more exciting
+                    happening here in terms of content, but just filling up the
+                    space to make it look, at least at first glance, a bit more
+                    representative of how this would look in a real-world
+                    application.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    <img
+                      src="/assets/accordianIcon.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                    <span class="accordianTxt"
+                      >hat is debt consolidation, and how can it benefit
+                      me?</span
+                    >
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the third item's accordion body. Nothing more exciting
+                    happening here in terms of content, but just filling up the
+                    space to make it look, at least at first glance, a bit more
+                    representative of how this would look in a real-world
+                    application.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive"
+                  >
+                    <img
+                      src="/assets/accordianIcon.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                    <span class="accordianTxt"
+                      >How does CreditUp handle legal matters related to
+                      debt?</span
+                    >
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Placeholder content for this accordion, which is intended to
+                    demonstrate the <code>.accordion-flush</code> class. This is
+                    the third item's accordion body. Nothing more exciting
+                    happening here in terms of content, but just filling up the
+                    space to make it look, at least at first glance, a bit more
+                    representative of how this would look in a real-world
+                    application.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Contact US -->
+        <div class="container mt-5" id="contact">
+          <div
+            class="contactContainer"
+            data-aos="zoom-in-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div class="contactTitle">
+              <div class="formDetial">
+                <h2 class="text-center mb-4 form-title">Contact Us</h2>
+                <form class="row g-3 needs-validation" novalidate>
+                  <div class="col-md-12 col-lg-12">
+                    <input
+                      type="text"
+                      class="form-control form-control-lg"
+                      id="validationCustom01"
+                      placeholder="Enter your full name"
+                      required
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                  </div>
+
+                  <div class="col-md-12 col-lg-12">
+                    <input
+                      type="text"
+                      class="form-control form-control form-control-lg"
+                      id="validationCustom01"
+                      placeholder="Enter your email id"
+                      required
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                  </div>
+
+                  <div class="col-md-12 col-lg-12">
+                    <input
+                      type="text"
+                      class="form-control form-control form-control-lg"
+                      id="validationCustom01"
+                      placeholder="Enter your phone number"
+                      required
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                  </div>
+
+                  <div class="col-md-12 col-lg-12">
+                    <input
+                      type="text"
+                      class="form-control form-control form-control-lg"
+                      id="validationCustom01"
+                      placeholder="Enter your message"
+                      required
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <button
+                      class="btn btn-primary mt-4 mb-4 btn-submit"
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer -->
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-body-tertiary mt-5">
+          <!-- Section: Social media -->
+          <section
+            class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+          >
+            <!-- Left -->
+            <!-- Left -->
+
+            <!-- Right -->
+
+            <!-- Right -->
+          </section>
+          <!-- Section: Social media -->
+
+          <!-- Copyright -->
+          <div class="text-center p-4 comp-footer">
+            © <span id="year"></span> Designed & Developed by
+            <a
+              class="text-reset fw-bold text-warning"
+              target="_blank"
+              href="https://www.psodigitalsolutions.com/"
+              >PSO</a
+            >
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+      $(".testimonial-content").owlCarousel({
+        loop: true,
+        items: 1,
+        margin: 50,
+        dots: true,
+        nav: true, // Enable navigation
+        mouseDrag: true,
+        autoplay: false,
+        autoplayTimeout: 4000,
+        smartSpeed: 800,
+        navText: ["<img src='left.svg'>", "<img src='right.svg'>"],
+        navClass: ["owl-prev", "owl-next"],
+      });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="js/AOS.js"></script>
+
+    <script src="/js/index.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
