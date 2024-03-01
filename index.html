@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Credit Up</title>
+    <link rel="icon" type="image/x-icon" href="/assets/logo.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -42,6 +43,7 @@
     />
 
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -58,7 +60,12 @@
     <header>
       <nav>
         <div class="logoContainer">
-          <img src="/assets/logo.png" alt="" class="img-fluid" width="250" />
+          <img
+            src="/assets/logo.png"
+            alt="creditup logo"
+            class="img-fluid"
+            width="250"
+          />
         </div>
         <div class="navItem">
           <ul>
@@ -105,7 +112,12 @@
       <div class="offcanvas-body">
         <div class="responsiveNav">
           <div class="logo">
-            <img src="/assets/logo.png" alt="" class="img-fluid" width="250" />
+            <img
+              src="/assets/logo.png"
+              alt="creditup logo"
+              class="img-fluid"
+              width="250"
+            />
           </div>
           <hr />
           <div class="listNav">
@@ -179,7 +191,11 @@
                 data-aos-delay="50"
                 data-aos-duration="1000"
               >
-                <img src="/assets/heroImg.png" alt="" class="img-fluid" />
+                <img
+                  src="/assets/heroImg.png"
+                  alt="credit finance"
+                  class="img-fluid"
+                />
               </div>
             </div>
           </div>
@@ -197,10 +213,9 @@
             >
               <div class="col-xl-3 col-lg-3 col-md-6">
                 <div class="count">
-                  <div class="countNum">
-                    <strong class="d-block"
-                      >10cr<span class="plus">+</span></strong
-                    >
+                  <div class="countNum d-block">
+                    <strong class="countDig" data-number="10"></strong
+                    ><span class="plus">cr+</span>
                   </div>
                   <div class="countTxt">
                     <span class="d-block">worth of debt settled</span>
@@ -209,10 +224,9 @@
               </div>
               <div class="col-xl-3 col-lg-3 col-md-6">
                 <div class="count">
-                  <div class="countNum">
-                    <strong class="d-block"
-                      >2000<span class="plus">+</span></strong
-                    >
+                  <div class="countNum d-block">
+                    <strong class="countDig" data-number="2000"></strong
+                    ><span class="plus">+</span>
                   </div>
                   <div class="countTxt">
                     <span class="d-block">clients helped</span>
@@ -221,10 +235,9 @@
               </div>
               <div class="col-xl-3 col-lg-3 col-md-6">
                 <div class="count">
-                  <div class="countNum">
-                    <strong class="d-block"
-                      >10yr<span class="plus">+</span></strong
-                    >
+                  <div class="countNum d-block">
+                    <strong class="countDig" data-number="10"></strong
+                    ><span class="plus">yr+</span>
                   </div>
                   <div class="countTxt">
                     <span class="d-block">of experience in debt solutions</span>
@@ -233,10 +246,9 @@
               </div>
               <div class="col-xl-3 col-lg-3 col-md-6">
                 <div class="count">
-                  <div class="countNum">
-                    <strong class="d-block"
-                      >91%<span class="plus">+</span></strong
-                    >
+                  <div class="countNum d-block">
+                    <strong class="countDig" data-number="91"></strong
+                    ><span class="plus">%+</span>
                   </div>
                   <div class="countTxt">
                     <span class="d-block">of success rate</span>
@@ -967,34 +979,74 @@
           </div>
         </div>
         <!-- Footer -->
-        <!-- Footer -->
-        <footer class="text-center text-lg-start bg-body-tertiary mt-5">
-          <!-- Section: Social media -->
-          <section
-            class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-          >
-            <!-- Left -->
-            <!-- Left -->
+        <footer
+          class="rounded-top-5 mt-5"
+          data-aos="zoom-in-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <section id="footer">
+            <div class="main-footer">
+              <div class="logoinfo" data-aos="fade-up">
+                <img
+                  class="img-fluid bg-light rounded"
+                  width="200"
+                  src="/assets/logo.png"
+                  alt=""
+                />
 
-            <!-- Right -->
-
-            <!-- Right -->
+                <div class="contact-details">
+                  <h1>Contact Us</h1>
+                  <li>
+                    <div class="fa fa-phone"></div>
+                    <a href="tel:+917304969100">+91 7304969100</a>
+                  </li>
+                  <li>
+                    <div class="fa fa-envelope"></div>
+                    <a href="mailto:creditup.india@gmail.com"
+                      >creditup.india@gmail.com</a
+                    >
+                  </li>
+                </div>
+              </div>
+              <div class="com" data-aos="fade-up">
+                <h1>
+                  <span><i class="fa-solid fa-link"></i></span> Visit Links
+                </h1>
+                <ul>
+                  <li><a href="#About Us">About Us</a></li>
+                  <li><a href="#Service">Services</a></li>
+                  <li><a href="#faq">FAQs</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+              <div class="info" data-aos="fade-up">
+                <h1>
+                  <span><i class="fa-solid fa-location-dot"></i></span>
+                  Visit Here
+                </h1>
+                <div class="sociallogos">
+                  <p class="text-center">
+                    1003/1004, Dhanashree Heights,<br />
+                    Off. Veera Desai Road, Andheri (West),<br />
+                    Mumbai - 400 053
+                  </p>
+                </div>
+              </div>
+            </div>
+            <footer>
+              <div class="text-center comp-footer">
+                © <span id="year"></span> Designed & Developed by
+                <a
+                  class="text-reset fw-bold text-warning footerTab"
+                  target="_blank"
+                  href="https://www.psodigitalsolutions.com/"
+                  >PSO Digital Solutions</a
+                >
+              </div>
+            </footer>
           </section>
-          <!-- Section: Social media -->
-
-          <!-- Copyright -->
-          <div class="text-center p-4 comp-footer">
-            © <span id="year"></span> Designed & Developed by
-            <a
-              class="text-reset fw-bold text-warning footerTab"
-              target="_blank"
-              href="https://www.psodigitalsolutions.com/"
-              >PSO Digital Solutions</a
-            >
-          </div>
-          <!-- Copyright -->
         </footer>
-        <!-- Footer -->
       </main>
     </div>
 

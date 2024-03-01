@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html,body{
+  scroll-behavior: smooth;
 }
 
 ol,
@@ -29,7 +33,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 20px 0px 20px;
+  padding: 20px 20px 0px 20px;
 }
 
 header nav ul {
@@ -172,7 +176,8 @@ section .count .countNum strong {
   font-weight: var(--fontWeightNum);
 }
 
-section .count .countNum strong .plus {
+section .count .countNum .plus {
+  font-size: 4rem;
   font-weight: var(--fontWeightNum);
 }
 
@@ -485,14 +490,13 @@ section .count .countTxt span {
   margin: 5rem auto 0rem auto;
 }
 
-.flipTag{
-  color:#2d4059;
+.flipTag {
+  color: #2d4059;
   font-weight: 500;
   font-style: italic;
-
 }
 
-.founderTitle{
+.founderTitle {
   font-size: 3.5rem;
   color: var(--mainColor);
   font-weight: 600;
@@ -500,7 +504,7 @@ section .count .countTxt span {
   font-family: var(--fontStyle);
 }
 
-small{
+small {
   /* padding: 0.5rem 1rem 0.5rem 1rem; */
   color: #333;
   font-weight: 500;
@@ -558,22 +562,22 @@ small{
 }
 
 .flip-card-front {
-  background-color: #8BC6EC;
-  
-background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  background-color: #8bc6ec;
 
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
 
   color: #333;
 }
 
 .flip-card-back {
-  background-color: #8BC6EC;
-background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
 
   color: #333;
   transform: rotateY(180deg);
 }
+
+/* footer */
 
 /* Media Query */
 @media only screen and (max-width: 860px) {
